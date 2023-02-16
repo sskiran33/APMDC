@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
+.contain{
+  background-color: rgb(234,243 ,251 );
+  padding-bottom: 20px;
+  height: 100vh;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.text{
+  color:rgb(57, 53, 134);
+  line-height: 0.3cm;
+  
+}
+.cherry{
+  width: 50%;
+}
+        .input {
+          margin-top: 20px;
+          width:30%;
+          padding-bottom: 20px;
+          border-radius: 20px;
+          border:none;
+          padding-left: 20px;
+          font-size: larger;
+          padding-top: 20px;
+        }
+        .button{
+          background-color: blue;
+          color: white;
+           width:30%;
+          padding-bottom: 20px;
+          border-radius: 20px;
+          border:none;
+          padding-left: 20px;
+          font-size: larger;
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+        .signup{
+          margin: 20px;
+        }
+        .Loginhere{
+          margin-top: 30px;
+          background-color:rgb(234,243 ,251 ); ;
+        }
+        .img-successful{
+          width:200px;
+        }
+        .button-ok{
+          background-color: blue;
+          color: white;
+           width:30%;
+          padding-bottom: 20px;
+          border-radius: 20px;
+          border:none;
+          padding-left: 20px;
+          font-size: larger;
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+        .button-ok:hover{
+          color: white ;
+          background-color: green;
+          cursor: pointer;
+        }
+        .request{
+           background-color: blue;
+          color: white;
+           width:30%;
+          padding-bottom: 20px;
+          border-radius: 20px;
+          border:none;
+          padding-left: 20px;
+          font-size: larger;
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+        .request:hover{
+          color: white ;
+          background-color: green;
+          cursor: pointer;
+        }
+        .logoImg{
+  width: 50%;
+  height: 60%;
+  opacity: 0.5;
+  margin-left: 30px;
+}
+.NavBar{
+background-color: rgb(234,243 ,251 );;
+    display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.Nav ul li{
+ display: inline;
+ padding: 5px;
+  margin-right: 60px;
+}
+.NaveBar ul{
+  list-style: none;
+ 
+
+
+}
+.dropbtn {
+  color: black;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color:rgb(98, 173, 238);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
